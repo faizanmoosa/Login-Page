@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen;
+}
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #f1faee, #a8dadc);
+}
+.inner-box {
+    width: 325px;
+    margin: 0px auto;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px #2a9d8f;
+    background-color: #ffffff09;
+    background: linear-gradient(to top left, #ffffff33, #ffffffff);
+}
+.login-header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+.login-header p {
+    font-size: 0.8rem;
+    color: #555;
+    margin: 1px 0px;
+}
+.login-body {
+    margin: 20px 0px;
+}
+.login-body p {
+    margin: 8px 0px;
+}
+.login-body p label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.login-body p input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #cccc;
+    border-radius: 5px;
+    margin: 2px 0px 0px ;
+}
+#submit {
+    background-color: #83c5be;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #2a9d8f;
+}
+.login-footer {
+    color: #555;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.login-footer a {
+    color: #2a9d8f;
+}
+.login-footer a:hover {
+    color: #57cc99;
+}
